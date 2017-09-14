@@ -1,0 +1,9 @@
+diff a/KeyHook.java b/KeyHook.java	(rejected hunks)
+@@ -7,6 +7,7 @@
+ public class KeyHook implements NativeKeyListener {
+ String pressed = "";
+ int priority =0;
++static boolean keyReady = false;
+ 
+ 
+ 	public void nativeKeyPressed(NativeKeyEvent e) {
